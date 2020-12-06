@@ -1,0 +1,51 @@
+.project-1{
+    width: 25%;
+    height: max-content;
+    color: rgb(73, 170, 255);
+    background-color: #212427;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.project-1 a{
+    text-decoration: none;
+    color: rgb(70, 131, 245);
+}
+.project-1 h2{
+    font-size: 30px;
+}
+.project-1 p{
+    color: #ffffff;
+}
+.go a{
+    text-decoration: none;
+}
+.go{
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 8px 8px 8px 8px;
+}
+.go a:hover{
+    color: #212427;
+}
+.visit-button a:hover{
+    color: #858585;
+    transition: color 0.5s;
+}
+.Projects-content{
+    margin-left: 10%;
+    margin-top: 10%;
+    text-decoration: none;
+    margin-right: 10%;
+}
+@media screen and (max-width: 600px) {
+    .project-1 {
+      width: 70%;
+    }
+}
+.fa-spinner{
+    color: rgb(48, 116, 219);
+}
