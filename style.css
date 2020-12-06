@@ -29,6 +29,7 @@ body{
 }
 .cont i:hover{
     color: antiquewhite;
+    transition: color 0.2s;
 }
 .Skills{
     border-radius: 20px;
@@ -42,6 +43,9 @@ padding-bottom: 5px;
     .Skills{
         width: 90%;
     }
+}
+.home-click{
+    color: #444444;
 }
 .Skills h2{
     font-size: 30px;
@@ -135,3 +139,61 @@ span{
     color: rgb(255, 97, 97)
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    font-family: Manrope;
+}
+.nav-links{
+    justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    font-size: 18px;
+}
+.nav-links a{
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.nav-links a:hover{
+    color: #2593dd;
+    transition: color 0.2s;
+}
+.nav-links li{
+    list-style: none;
+}
+
+  
+  @media screen and (max-width: 600px) {
+    
+    
+    .header-right {
+      float: none;
+    }
+    .footer{
+          width: 80%;
+      }
+      nav a{
+          margin: 20px;
+      }
+      nav{
+        width: 100%;
+        justify-content: space-around;
+      }
+  }
+.contact{
+    text-align: center;
+    color: #2593dd;
+    background-color: #212427;
+    font-size: 28px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 14px 12px 14px;
+}
+.contact:hover{
+    color: #45a4f1;
+    transition: color 0.2s;
+}
